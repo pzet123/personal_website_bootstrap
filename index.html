@@ -11,27 +11,43 @@
 	<title>Piotr Zychlinski</title>
 </head>
 <body>
-<div id="navbar" class="row">
-	<h1 id="title" class="col-lg-8">Piotr Zychlinski</h1>
-	<ul id="navbar-headings" class="col-lg-4">
-		<li><a href="#" target="_blank">Home</a></li>
-		<li><a href="#" target="_blank"> Projects</a></li>
-		<li><a href="#" target="_blank">Contact</a></li>
-		<li><a href="#" target="_blank">Hobbies</a></li>
-	</ul> 	
-	<div class="col-lg-12">
-	<ul id="social-media-links">
-		<li><a href="https://github.com/pzet123" target="_blank"><img src = "assets/github_icon.png" height="15px" width="15px"> Github</a></li>
-		<li><a href="https://stackoverflow.com/users/13776031/pzet" target="_blank"><img src = "assets/stackoverflow_icon.png" height="15px" width="15px"> Stack Overflow</a></li>
-		<li><a href="https://www.linkedin.com/in/piotr-zychlinski-63a205226/" target="_blank"><img src = "assets/linkedin_icon.png" width="15px" height="15px"> LinkedIn</a></li>
-	</ul>
-</div>
+	<div class="container">
+		<nav class="navbar navbar-expand-md navbar-light">
+			<div class="row">
+				<h1 id="title" class="navbar-brand">Piotr Zychlinski</h1>
+				<ul id="social-media-links" class="">
+					<li><a href="https://github.com/pzet123" target="_blank"><img src = "assets/github_icon.png" height="15px" width="15px"> Github</a></li>
+					<li><a href="https://stackoverflow.com/users/13776031/pzet" target="_blank"><img src = "assets/stackoverflow_icon.png" height="15px" width="15px"> Stack Overflow</a></li>
+					<li><a href="https://www.linkedin.com/in/piotr-zychlinski-63a205226/" target="_blank"><img src = "assets/linkedin_icon.png" width="15px" height="15px"> LinkedIn</a></li>
+				</ul>
+			</div>
+			<button class="navbar-toggler"
+			type="button"
+			data-bs-toggle="collapse"
+			data-bs-target="#toggleMenu"
+			aria-controls="toggleMenu"
+			aria-expanded="false"
+			aria-lable="Toggle navigation">
 
-</div>
-	<p id="intro">I am a student at the University of Warwick currently pursuing a bachelor's degree in CS. I am currently working towards becoming a full-stack developer hence I am most interested in software development however I also enjoy learning about computer architecture & organisation.</p>
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse align-top" id="toggleMenu">
+			<ul id="navbar-hdings" class="navbar-nav ms-auto">
+				<li class="nav-item"><a class="nav-link" href="#" target="_blank">Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="#" target="_blank"> Projects</a></li>
+				<li class="nav-item"><a class="nav-link" href="#" target="_blank">Contact</a></li>
+				<li class="nav-item"><a class="nav-link" href="#" target="_blank">Hobbies</a></li>
+			</ul> 	
+		</div>
 
-	<script src="js/jquery-3.6.0.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/script.js"></script>
+	</nav>
+	<div class="container">
+		<p id="intro" class="col-lg-12 col-md-12 col-sm-12">I am a student at the University of Warwick currently pursuing a bachelor's degree in CS. I am currently working towards becoming a full-stack developer hence I am most interested in software development however I also enjoy learning about computer architecture & organisation.</p>
+
+	</div>
+</div>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

@@ -1,3 +1,7 @@
+*{
+	box-sizing: border-box;
+}
+
 #social-media-links li:hover{
 	border-bottom: 1px solid black;
 }
@@ -11,39 +15,27 @@
 
 #navbar-headings li:first-child, #social-media-links li:first-child{
 	border-left: none;
+	padding-left: 0;
 }
 
-#navbar-headings li, #social-media-links li{
-	display: inline;
-	padding:  0.75em;
-	border-left: 0.2em solid;
-}
 
 #social-media-links li{
-	padding: 0 0.25em 0 0.25em;
 	border-left: 0.2em solid;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 	height: 1.5em;
 }
 
-#navbar-headings a{
-	text-decoration: none;
-	color: black;
-}
-
-
-
-#navbar-headings li:hover{
-	text-decoration: underline;
-}
 
 
 #title{
-	color: gray;
+	font-size: 2em
 }
 
-hr{
-	color: gray;
+.project{
+	margin-bottom: 50px;
 }
+
 
 
 h1{

@@ -4,13 +4,13 @@
 
 #social-media-links li:hover{
 	border-bottom: 1px solid black;
+	color: darkred;
 }
 
 #social-media-links a{
 	text-decoration: none;
 	color: black;
 }
-
 
 
 #navbar-headings li:first-child, #social-media-links li:first-child{
@@ -24,16 +24,34 @@
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 	height: 1.5em;
+
 }
 
 
 
 #title{
-	font-size: 2em
+	/*font-size: 2em*/
 }
+
 
 .project{
 	margin-bottom: 50px;
+}
+
+.ghButton{
+	width: 30%;
+	border: none;
+	border-radius: 10px;
+	background-color: white;
+	text-decoration: none;
+	transition-duration: 0.4s;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2)
+}
+
+.ghButton:hover{
+	background-color: black;
+	color: white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24)
 }
 
 

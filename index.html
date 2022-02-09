@@ -11,18 +11,21 @@
 	<title>Piotr Zychlinski</title>
 
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
 	<div class="container">
 		<nav class="navbar navbar-expand-md navbar-light">
-			<div class="row">
+			<div class="col-sm-9 col-md-7 col-lg-6">
 				<h1 id="title" class="navbar-brand">Piotr Zychlinski</h1>
+
+				<div class="row">
 				<ul id="social-media-links">
-					<li class="d-inline"><a href="https://github.com/pzet123" target="_blank"><img src = "assets/github_icon.png" height="15px" width="15px"> Github</a></li>
-					<li class="d-inline"><a href="https://stackoverflow.com/users/13776031/pzet" target="_blank"><img src = "assets/stackoverflow_icon.png" height="15px" width="15px"> Stack Overflow</a></li>
-					<li class="d-inline"><a href="https://www.linkedin.com/in/piotr-zychlinski-63a205226/" target="_blank"><img src = "assets/linkedin_icon.png" width="15px" height="15px"> LinkedIn</a></li>
+					<li class="d-block d-sm-inline"><img src = "assets/github_icon.png" height="15px" width="15px"><a href="https://github.com/pzet123" target="_blank">Github</a></li>
+					<li class="d-block d-sm-inline"><img src = "assets/stackoverflow_icon.png" height="15px" width="15px"><a href="https://stackoverflow.com/users/13776031/pzet" target="_blank">Stack Overflow</a></li>
+					<li class="d-block d-sm-inline"><img src = "assets/linkedin_icon.png" width="15px" height="15px"><a href="https://www.linkedin.com/in/piotr-zychlinski-63a205226/" target="_blank">LinkedIn</a></li>
 				</ul>
-			</div>
-			<button class="navbar-toggler" id = "navButton"
+				</div>
+				</div>
+			<button class="navbar-toggler col-sm-2 col-xs-3" id = "navButton"
 			type="button"
 			data-bs-toggle="collapse"
 			data-bs-target="#toggleMenu"
@@ -31,22 +34,42 @@
 			aria-lable="Toggle navigation">
 
 			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse align-top" id="toggleMenu">
+			</button>
+
+			
+
+		<div class="collapse navbar-collapse align-top col-lg-6 col-md-5" id="toggleMenu">
 			<ul class="navbar-nav ms-auto">
 				<li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
 				<li class="nav-item"><a class="nav-link" href="projects.html"> Projects</a></li>
-				<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Hobbies</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">CV</a></li>
 			</ul> 	
 		</div>
 
 	</nav>
-	<div class="container">
+	<div class="row">
 		<p id="intro" class="col-lg-12 col-md-12 col-sm-12">I am a student at the University of Warwick currently pursuing a bachelor's degree in CS. I am currently working towards becoming a full-stack developer hence I am most interested in software development however I also enjoy learning about computer architecture & organisation.</p>
 
 	</div>
-</div>
+	
+	</div>
+	<footer class="page-footer mt-auto bg-primary text-white">
+	  	<div class="container text-left">
+
+
+	        <h5 class="text-white">contact details:</h5>
+	        <ul>
+	        	<li>Number: 07732827322</li>
+	        	<li>Email: testEmail@test.com</li>
+
+	        </ul>
+
+	  	</div>
+
+
+
+	</footer>
+
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>

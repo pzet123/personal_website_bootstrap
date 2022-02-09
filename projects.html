@@ -14,15 +14,18 @@
 <body>
 	<div class="container">
 		<nav class="navbar navbar-expand-md navbar-light">
-			<div class="row">
+			<div class="col-sm-9 col-md-7 col-lg-6">
 				<h1 id="title" class="navbar-brand">Projects</h1>
+
+				<div class="row">
 				<ul id="social-media-links">
-					<li class="d-inline"><a href="https://github.com/pzet123" target="_blank"><img src = "assets/github_icon.png" height="15px" width="15px"> Github</a></li>
-					<li class="d-inline"><a href="https://stackoverflow.com/users/13776031/pzet" target="_blank"><img src = "assets/stackoverflow_icon.png" height="15px" width="15px"> Stack Overflow</a></li>
-					<li class="d-inline"><a href="https://www.linkedin.com/in/piotr-zychlinski-63a205226/" target="_blank"><img src = "assets/linkedin_icon.png" width="15px" height="15px"> LinkedIn</a></li>
+					<li class="d-block d-sm-inline"><img src = "assets/github_icon.png" height="15px" width="15px"><a href="https://github.com/pzet123" target="_blank">Github</a></li>
+					<li class="d-block d-sm-inline"><img src = "assets/stackoverflow_icon.png" height="15px" width="15px"><a href="https://stackoverflow.com/users/13776031/pzet" target="_blank">Stack Overflow</a></li>
+					<li class="d-block d-sm-inline"><img src = "assets/linkedin_icon.png" width="15px" height="15px"><a href="https://www.linkedin.com/in/piotr-zychlinski-63a205226/" target="_blank">LinkedIn</a></li>
 				</ul>
-			</div>
-			<button class="navbar-toggler"
+				</div>
+				</div>
+			<button class="navbar-toggler col-sm-2 col-xs-3" id = "navButton"
 			type="button"
 			data-bs-toggle="collapse"
 			data-bs-target="#toggleMenu"
@@ -31,13 +34,13 @@
 			aria-lable="Toggle navigation">
 
 			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse align-top" id="toggleMenu">
+			</button>
+
+		<div class="collapse navbar-collapse align-top col-lg-6 col-md-5" id="toggleMenu">
 			<ul class="navbar-nav ms-auto">
 				<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 				<li class="nav-item"><a class="nav-link active" href="projects.html"> Projects</a></li>
-				<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">Hobbies</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">CV</a></li>
 			</ul> 	
 		</div>
 
@@ -45,52 +48,63 @@
 	<div class="row project">
 		<h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">Project 1</h2>
 		<img class="col-lg-6 col-md-6 col-sm-12 col-xs-12" src="https://picsum.photos/400/300">
-		<div class="container col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<div class="row justify-content-center">
 		<p class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
-			 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In volutpat vel tortor nec pulvinar. Donec fermentum erat ac sem congue pellentesque. Nunc varius, lacus at interdum molestie, metus magna pulvinar metus, vitae volutpat ante risus vel felis. Morbi vehicula erat euismod pharetra interdum. Ut laoreet nisi pulvinar, feugiat nunc eget, dapibus odio. Sed pharetra tincidunt lorem in accumsan. Praesent mattis lectus nec lorem pellentesque convallis. Pellentesque luctus eros nec augue sollicitudin porttitor. Nam mattis purus sit amet nisi congue laoreet.
-			Aenean accumsan nisl at dignissim eleifend. Donec cursus risus a enim feugiat egestas. Aenean malesuada, velit nec vestibulum sollicitudin, risus ex venenatis enim, et bibendum diam orci a nibh. 
+			 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In volutpat vel tortor nec pulvinar. Donec fermentum erat ac sem congue pellentesque. Nunc varius, lacus at interdum molestie, metus magna pulvinar metus, vitae volutpat ante risus vel felis.
 		</p>
-		<div class = "row justify-content-center align-self-end">
-			<button class="ghButton col-lg-12 col-md-12 col-sm-12 col-xs-12">View on GitHub</button>
+		<button class="ghButton col-lg-12 col-md-12 col-sm-12 col-xs-12">View on GitHub</button>
 		</div>
-	</div> 
+	</div>
 	</div>
 
 	<div class="row project">
 		<h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">Project 1</h2>
 		<img class="col-lg-6 col-md-6 col-sm-12 col-xs-12" src="https://picsum.photos/400/300">
-		<div class="container col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<div class="row justify-content-center">
 		<p class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
 			 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In volutpat vel tortor nec pulvinar. Donec fermentum erat ac sem congue pellentesque. Nunc varius, lacus at interdum molestie, metus magna pulvinar metus, vitae volutpat ante risus vel felis. Morbi vehicula erat euismod pharetra interdum. Ut laoreet nisi pulvinar, feugiat nunc eget, dapibus odio. Sed pharetra tincidunt lorem in accumsan. Praesent mattis lectus nec lorem pellentesque convallis. Pellentesque luctus eros nec augue sollicitudin porttitor. Nam mattis purus sit amet nisi congue laoreet.
-
-			Suspendisse sed lectus laoreet, gravida lectus non, interdum libero. Aliquam feugiat ligula ac erat condimentum, eu ultrices enim feugiat. Sed nec aliquam nunc. Vestibulum rutrum lectus in tellus mollis laoreet. Fusce ligula purus, placerat et odio sed, congue posuere ante. Vivamus vel fermentum lectus. Pellentesque ac tempor arcu.
-
 			Aenean accumsan nisl at dignissim eleifend. Donec cursus risus a enim feugiat egestas. Aenean malesuada, velit nec vestibulum sollicitudin, risus ex venenatis enim, et bibendum diam orci a nibh. 
 		</p>
-		<div class = "row justify-content-center">
-			<button class="ghButton col-lg-12 col-md-12 col-sm-12 col-xs-12">View on GitHub</button>
+		<button class="ghButton col-lg-12 col-md-12 col-sm-12 col-xs-12">View on GitHub</button>
 		</div>
-	</div> 
+	</div>
 	</div>
 
 	<div class="row project">
 		<h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">Project 1</h2>
 		<img class="col-lg-6 col-md-6 col-sm-12 col-xs-12" src="https://picsum.photos/400/300">
-		<div class="container col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<div class="row justify-content-center">
 		<p class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
 			 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In volutpat vel tortor nec pulvinar. Donec fermentum erat ac sem congue pellentesque. Nunc varius, lacus at interdum molestie, metus magna pulvinar metus, vitae volutpat ante risus vel felis. Morbi vehicula erat euismod pharetra interdum. Ut laoreet nisi pulvinar, feugiat nunc eget, dapibus odio. Sed pharetra tincidunt lorem in accumsan. Praesent mattis lectus nec lorem pellentesque convallis. Pellentesque luctus eros nec augue sollicitudin porttitor. Nam mattis purus sit amet nisi congue laoreet.
-
-			Suspendisse sed lectus laoreet, gravida lectus non, interdum libero. Aliquam feugiat ligula ac erat condimentum, eu ultrices enim feugiat. Sed nec aliquam nunc. Vestibulum rutrum lectus in tellus mollis laoreet. Fusce ligula purus, placerat et odio sed, congue posuere ante. Vivamus vel fermentum lectus. Pellentesque ac tempor arcu.
-
 			Aenean accumsan nisl at dignissim eleifend. Donec cursus risus a enim feugiat egestas. Aenean malesuada, velit nec vestibulum sollicitudin, risus ex venenatis enim, et bibendum diam orci a nibh. 
 		</p>
-		<div class = "row justify-content-center">
-			<button class="ghButton col-lg-12 col-md-12 col-sm-12 col-xs-12">View on GitHub</button>
+		<button class="ghButton col-lg-12 col-md-12 col-sm-12 col-xs-12">View on GitHub</button>
 		</div>
-	</div> 
+	</div>
 	</div>
 
-</div>
+	</div>
+
+	<footer class="page-footer mt-auto bg-primary text-white">
+	  	<div class="container text-left">
+
+
+	        <h5 class="text-white">contact details:</h5>
+	        <ul>
+	        	<li>Number: 07732827322</li>
+	        	<li>Email: testEmail@test.com</li>
+
+	        </ul>
+
+	  	</div>
+
+
+
+	</footer>
+	
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>

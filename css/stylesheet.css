@@ -3,13 +3,15 @@
 }
 
 #social-media-links li:hover{
-	border-bottom: 1px solid black;
+	/*border-bottom: 1px solid black;*/
+	text-decoration: underline;
 	color: darkred;
 }
 
 #social-media-links a{
 	text-decoration: none;
 	color: black;
+	padding-left: 5px;
 }
 
 
@@ -33,6 +35,12 @@
 	/*font-size: 2em*/
 }
 
+.page-footer{
+	width: 100%;
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
+
 
 .project{
 	margin-bottom: 50px;
@@ -54,6 +62,10 @@
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24)
 }
 
+.btnRow{
+	height: 100%;
+}
+
 
 
 h1{
@@ -68,7 +80,7 @@ h1{
 	}
 
 	#social-media-links li{
-		display: block;
+		padding: 0px;
 	}
 
 
